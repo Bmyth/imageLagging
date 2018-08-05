@@ -1,0 +1,27 @@
+.container{
+	height: 2000px;
+	padding-top: 100px;
+	width: 800px;
+	margin: 0 auto;
+	background: #ddd;
+	overflow: hidden;
+}
+
+.photo{
+	width: 190px;
+	margin: 40px;
+	position: relative;
+}
+
+.photo.right{
+	margin-left: 400px;
+}
+
+.photo img{
+	width: 100%;
+}
+
+.photo img.clone{
+	position: absolute;
+	left: 0;
+}
